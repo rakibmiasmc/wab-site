@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD News বাংলা</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Kalpurush', Arial, sans-serif;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1.5rem;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .featured-news {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .news-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">BD News বাংলা</div>
+    </header>
+
+    <nav>
+        <a href="#home">প্রথম পাতা</a>
+        <a href="#national">জাতীয়</a>
+        <a href="#international">আন্তর্জাতিক</a>
+        <a href="#sports">খেলাধুলা</a>
+        <a href="#entertainment">বিনোদন</a>
+    </nav>
+
+    <main>
+        <section class="featured-news">
+            <div class="main-news">
+                <h2>শীর্ষ খবর</h2>
+                <div class="news-card">
+                    <h3>বাংলাদেশে নতুন অর্থনৈতিক নীতি ঘোষণা</h3>
+                    <p>রাজধানীতে আজ এক সংবাদ সম্মেলনে প্রধানমন্ত্রী নতুন অর্থনৈতিক পরিকল্পনা উপস্থাপন করেছেন...</p>
+                </div>
+            </div>
+
+            <div class="latest-news">
+                <h2>সর্বশেষ</h2>
+                <div class="news-card">
+                    <h3>ক্রিকেটে বাংলাদেশের জয়</h3>
+                    <p>এশিয়া কাপে ভারতকে হারালো টাইগাররা...</p>
+                </div>
+                <div class="news-card">
+                    <h3>নতুন মেট্রোরেল পরিষেবা</h3>
+                    <p>আগামী মাস থেকে চালু হচ্ছে উত্তরা-মোটিজিল লাইন...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="national-news">
+            <h2>জাতীয় সংবাদ</h2>
+            <div class="news-card">
+                <h3>শিক্ষা মন্ত্রণালয়ের নতুন নির্দেশনা</h3>
+                <p>প্রাথমিক শিক্ষাক্রমে আসছে বড় পরিবর্তন...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© ২০২৪ BD News বাংলা - সর্বস্বত্ব সংরক্ষিত</p>
+    </footer>
+</body>
+</html>
